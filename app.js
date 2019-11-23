@@ -8,7 +8,7 @@ app.use(cors());
 
 
 //ROUTE
-const floristsRoute = require('./florists');
-app.use('/florists', floristsRoute);
+const floristsRoute = require('./localflorists');
+app.use('/localflorists', floristsRoute);
 
 app.listen(process.env.PORT);
